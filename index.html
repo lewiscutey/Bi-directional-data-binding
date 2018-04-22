@@ -12,6 +12,7 @@
     <form>
       <input type="text"  v-model="number">
       <button type="button" v-click="increment">增加</button>
+      <button type="button" v-click="decrease">减少</button>
     </form>
     <h3 v-bind="number"></h3>
   </div>
@@ -136,7 +137,10 @@
       methods: {
         increment: function() {
           this.number ++;
-        }
+        },
+	decrease: function(){
+	  this.number --;
+	}
       }
     })
   }
