@@ -1,2 +1,2 @@
 # Bi-directional-data-binding
-双向数据绑定
+手写一个简单的双向数据绑定
