@@ -1,3 +1,4 @@
+// 详情参考https://github.com/wclimb/MyVue
 class Vue{
   constructor(options = {}){
       this.$el = document.querySelector(options.el);
